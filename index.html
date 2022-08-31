@@ -1,47 +1,56 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
     <meta charset="utf-8" />
     <title>Benayu H. Priyanto</title>
   </head>
   <body class="noselect">
-    <div class="sidebar">
-      <h1>Benayu H. Priyanto</h1>
-      <a href="#home" class="nav">Home</a>
-      <a href="#experience" class="nav">Experience</a>
-      <a href="#education" class="nav">Education</a>
-      <a href="#awards" class="nav">Awards</a>
-      <a href="#skills" class="nav">Skills</a>
-      <div id="contact-form">
-        <hr>
-        <h4>
-          <img class="icon" src="email.png" /><a
-            href="mailto:benayu@gmail.com"
-            class="contact"
-            >benayu@gmail.com</a
-          ><br />
-          <img class="icon" src="telephone.png" /><a
-            href="tel:+447940104310"
-            class="contact"
-            >+447940104310</a
-          >
-        </h4>
-        <div class="links">
-          <a href="https://www.linkedin.com/in/benayu-hagie-priyanto-576a31191/">LinkedIn</a> /
-          <a href="Resume.pdf">PDF</a>
-        </div>
-      </div>
-    </div>
-    <div class="content">
-      <div id="home">
-        <h3>Fresh Graduate from Queen's University Belfast</h3>
+
+    <div class="container">
+      <div class="main-page">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item">
+            <a class="navbar-brand"><h1>Benayu Hagie Priyanto</h1></a>
+          </li>
+          <li class="nav-item tabs-link">
+            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+          </li>
+          <li class="nav-item tabs-link">
+            <a class="nav-link" id="pills-skills-tab" data-toggle="pill" href="#pills-skills" role="tab" aria-controls="pills-skills" aria-selected="false">Skills</a>
+          </li>
+          <li class="nav-item tabs-link">
+            <a class="nav-link" id="pills-experience-tab" data-toggle="pill" href="#pills-experience" role="tab" aria-controls="pills-experience" aria-selected="false">Experience</a>
+          </li>
+          <li class="nav-item tabs-link">
+            <a class="nav-link" id="pills-education-tab" data-toggle="pill" href="#pills-education" role="tab" aria-controls="pills-education" aria-selected="false">Education</a>
+          </li>
+          <li class="nav-item tabs-link">
+            <a class="nav-link" id="pills-awards-tab" data-toggle="pill" href="#pills-awards" role="tab" aria-controls="pills-awards" aria-selected="false">Awards</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <h3>Fresh Graduate from Queen's University Belfast</h3>
+            <h4>
+              <img class="icon" src="email.png" /><a
+                href="mailto:benayu@gmail.com"
+                class="contact"
+                >benayu@gmail.com</a>
+              <img class="icon" src="telephone.png" /><a
+                href="tel:+6287770635381"
+                class="contact"
+                >+6287770635381</a
+              >
+            </h4>
+            
         <h4>
           I am a hardworking and adaptable fresh graduate in biomedical science who is always eager to learn. My
           communication skills and technical experience make me a reliable member
@@ -49,65 +58,74 @@
           opportunity I am grateful to receive. <a href="https://www.linkedin.com/in/benayu-hagie-priyanto-576a31191/">LinkedIn</a> /
           <a href="Resume.pdf">PDF</a>
         </h4>
-  
-      </div>
-     
 
-      <div id="experience">
-        <h2>Experience</h2> <hr>
-        <div class="block-content">
-          <h6>Homework Club Tutor</h6>
-        <h5>2019, BELFAST, UK</h5>
-        <p>Horn of Africa People's Aid Northern Ireland (HAPANI)</p>
-        </div>
-        <div class="block-content">
-          <h6>LIYSF Delegate</h6>
-        <h5>2017, LONDON, UK</h5>
-        <p>London International Youth Science Forum delegate.</p>
-
-        </div>
-        <div class="block-content">
-          <h6>First Aid Volunteer</h6>
-        <h5>2017-2018, TANGERANG, INDONESIA</h5>
-        <p>
-          For the following events:
-          <ul>
-            <li>Binus Archery Competition, 2017</li>
-            <li>Binus Amazing Race, 2017</li>
-            <li>Bynamic Arts Festival, 2017</li>
-            <li>Beevolution Arts & Sports Festival 2017</li>
-          </ul>
-        </p>
-        </div>
-        
-        
-
-        
-        
-      </div>
-
-      <div id="education">
-        <h2>Education</h2> <hr>
-
-        <div class="block-content">
-        <h6>Binus Serpong High School</h6>
-        <h5>2016-2019, TANGERANG, INDONESIA</h5>
-        <p>CIE A Levels with Mathematics (A*), Biology (A), Chemistry (B), Physics (C), AS English (b)
-            <br>National Exam (UN) scores 337,5/400
+          </div>
+          <div class="tab-pane fade" id="pills-skills" role="tabpanel" aria-labelledby="pills-skills-tab">
+            <div class="block-content">
+              <h6>English fluency</h6>
+              <h5>IELTS band score 8.0</h5>
+              <h5>Level C1 (2019)</h5>
+            </div>
+            <div class="block-content">
+              <h6>Indonesian fluency</h6>
+              <h5>Native speaker</h5>
+            </div>
+            <div class="block-content">
+              <h6>Statistical R</h6>
+              <h5>Includes ggplot2</h5>
+            </div>
+            <div class="block-content">
+              <h6>SPSS</h6>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-experience" role="tabpanel" aria-labelledby="pills-experience-tab">
+            <div class="block-content">
+              <h6>Homework Club Tutor</h6>
+            <h5>2019, BELFAST, UK</h5>
+            <p>Horn of Africa People's Aid Northern Ireland (HAPANI)</p>
+            </div>
+            <div class="block-content">
+              <h6>LIYSF Delegate</h6>
+            <h5>2017, LONDON, UK</h5>
+            <p>London International Youth Science Forum delegate.</p>
+    
+            </div>
+            <div class="block-content">
+              <h6>First Aid Volunteer</h6>
+            <h5>2017-2018, TANGERANG, INDONESIA</h5>
+            <p>
+              For the following events:
+              <ul>
+                <li>Binus Archery Competition, 2017</li>
+                <li>Binus Amazing Race, 2017</li>
+                <li>Bynamic Arts Festival, 2017</li>
+                <li>Beevolution Arts & Sports Festival 2017</li>
+              </ul>
             </p>
-        </div>
-        
-        <div class="block-content">
-          <h6>Bsc. Biomedical Science at Queen's University Belfast</h6>
-        <h5>2019-2022, BELFAST, UK</h5>
-        <p>Awarded the MHLS GREAT Scholarship worth £20,000.
-            Dissertation title: Predicting Cancer Vulnerabilities using Gene Interaction Networks.
-        </p>
-        </div>
-        
-      </div>
-      <div id="awards">
-        <h2>Awards</h2> <hr>
+            </div>
+            
+
+          </div>
+          <div class="tab-pane fade" id="pills-education" role="tabpanel" aria-labelledby="pills-experience-tab">
+            <div class="block-content">
+              <h6>Binus Serpong High School</h6>
+              <h5>2016-2019, TANGERANG, INDONESIA</h5>
+              <p>CIE A Levels with Mathematics (A*), Biology (A), Chemistry (B), Physics (C), AS English (b)
+                  <br>National Exam (UN) scores 337,5/400
+                  </p>
+              </div>
+              
+              <div class="block-content">
+                <h6>Bsc. Biomedical Science at Queen's University Belfast</h6>
+              <h5>2019-2022, BELFAST, UK</h5>
+              <p>Awarded the MHLS GREAT Scholarship worth £20,000.
+                  Dissertation title: Predicting Cancer Vulnerabilities using Gene Interaction Networks.
+              </p>
+              </div>
+
+          </div>
+          <div class="tab-pane fade" id="pills-awards" role="tabpanel" aria-labelledby="pills-education-tab">
+           
         <div class="block-content">
           <h6>NMGBC Semifinalist</h6>
           <h5>2017, JAKARTA, INDONESIA</h5>
@@ -130,30 +148,35 @@
           Cassava Starch-based Bioplastic
         </p>
         </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!--     
+    
+     
+
+    
         
+        
+
+        
+   
         <div id="skills">
           <h2>Skills</h2> <hr>
-          <div class="block-content">
-            <h6>English fluency</h6>
-            <h5>IELTS band score 8.0</h5>
-            <h5>Level C1 (2019)</h5>
-          </div>
-          <div class="block-content">
-            <h6>Indonesian fluency</h6>
-            <h5>Native speaker</h5>
-          </div>
-          <div class="block-content">
-            <h6>Statistical R</h6>
-            <h5>Includes ggplot2</h5>
-          </div>
-          <div class="block-content">
-            <h6>SPSS</h6>
-          </div>
+          
         </div>
         
 
         
       </div>
-    </div>
+    </div> -->
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
 </html>

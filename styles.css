@@ -1,6 +1,4 @@
-html {
-    scroll-behavior: smooth;
-}
+
 body {
     margin: 0;
     padding: 0;
@@ -34,8 +32,9 @@ h4 {
     font-weight: 200;
     font-size: large;
     margin-block-start: 0;
-    margin-block-end: 0;
+    margin-block-end: 1rem;
     line-height: 2;
+
 }
 
 h5 {
@@ -87,41 +86,16 @@ a.nav {
 
 a:hover {
     text-decoration: underline;
+    color: black;
 }
 
 img.icon {
     width: 20px;
-    margin-right: 3%;
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
 
-.sidebar {
-    position: fixed;
-    height: 100%;
-    width: 20%;
-    padding-top: 8%;
-    padding-left: 5%;
-    padding-right: 5%; 
-    text-align: center;
-}
 
-.content {
-    position: absolute;
-    margin-left: 33%;
-    margin-right: 2%;
-    padding: 0;
-    width: 60%;
-    margin-top: 5%;
-    padding-bottom: 5%;
-}
-
-.block-content {
-    margin-top: 2%;
-    margin-bottom: 7%;
-}
-
-.links{
-    margin-block-start: 5%;
-}
 .noselect {
     -webkit-touch-callout: none; /* iOS Safari */
       -webkit-user-select: none; /* Safari */
@@ -132,14 +106,33 @@ img.icon {
                                     supported by Chrome, Edge, Opera and Firefox */
   }
 
-#home {
-    border-style: dotted;
+.tab-pane {
     border-width: 1px;
-    padding: 5%
+    padding: 0;
 }
 
+.main-page {
+    border-top: 0cm;
+    margin-top: 10%;
+}
 
+.tab-content {
+    padding: 5%;
+    border: 1px solid darkgray;
+    border-radius: 0.25rem;
+}
 
-#contact-form {
-    margin-block-start: 20%;
+.tabs-link {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.nav-pills .nav-link.active{
+    color: black;
+    border: 1px solid darkgray;
+    background-color: transparent;
+}
+
+.block-content {
+    margin-bottom: 2rem;
 }
