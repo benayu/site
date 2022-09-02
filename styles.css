@@ -46,8 +46,11 @@ a:hover {
 }
 
 .nav-pills .nav-link.active{
+    color:black;
     border: 1px solid darkgray;
     background-color: transparent;
+    margin-left: 1px;
+    margin-right: 1px;
 }
 
 .block-content {
@@ -56,7 +59,7 @@ a:hover {
 
 li.nav-item.tabs-link {
     margin-right: 1px;
-    font-size: small;
+    font-size: large;
     font-weight: 200;
 }
 
