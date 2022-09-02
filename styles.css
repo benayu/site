@@ -1,4 +1,71 @@
 
+a.nav {
+    display: block;
+    font-size: large;
+    margin-bottom: 5%;
+    text-transform: uppercase;
+    font-weight: 200;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+    color: black;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+
+.tab-pane {
+    border-width: 1px;
+    padding: 0;
+}
+
+.main-page {
+    border-top: 0cm;
+    margin-top: 10%;
+}
+
+.tab-content {
+    padding: 5%;
+    border: 1px solid darkgray;
+    border-radius: 0.25rem;
+}
+
+.tabs-link {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.nav-pills .nav-link.active{
+    border: 1px solid darkgray;
+    background-color: transparent;
+}
+
+.block-content {
+    margin-bottom: 2rem;
+}
+
+li.nav-item.tabs-link {
+    margin-right: 1px;
+    font-size: small;
+    font-weight: 200;
+}
+
+li.nav-item.tabs-link:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+
 body {
     margin: 0;
     padding: 0;
@@ -74,65 +141,3 @@ ul {
     list-style-type: circle;
 }
 
-
-a.nav {
-    display: block;
-    font-size: large;
-    margin-bottom: 5%;
-    text-transform: uppercase;
-    font-weight: 200;
-
-}
-
-a:hover {
-    text-decoration: underline;
-    color: black;
-}
-
-img.icon {
-    width: 20px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-}
-
-
-.noselect {
-    -webkit-touch-callout: none; /* iOS Safari */
-      -webkit-user-select: none; /* Safari */
-       -khtml-user-select: none; /* Konqueror HTML */
-         -moz-user-select: none; /* Old versions of Firefox */
-          -ms-user-select: none; /* Internet Explorer/Edge */
-              user-select: none; /* Non-prefixed version, currently
-                                    supported by Chrome, Edge, Opera and Firefox */
-  }
-
-.tab-pane {
-    border-width: 1px;
-    padding: 0;
-}
-
-.main-page {
-    border-top: 0cm;
-    margin-top: 10%;
-}
-
-.tab-content {
-    padding: 5%;
-    border: 1px solid darkgray;
-    border-radius: 0.25rem;
-}
-
-.tabs-link {
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.nav-pills .nav-link.active{
-    color: black;
-    border: 1px solid darkgray;
-    background-color: transparent;
-}
-
-.block-content {
-    margin-bottom: 2rem;
-}
