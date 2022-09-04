@@ -72,6 +72,30 @@ li.nav-item.tabs-link li.nav-item.tabs-link:active {
     font-weight: 400;
 }
 
+.btn-outline-dark:not(:disabled):not(.disabled).active, .btn-outline-dark:not(:disabled):not(.disabled):active, .show>.btn-outline-dark.dropdown-toggle{
+    color: black;
+    background-color: transparent;
+    border-color: darkgray;
+}
+
+.btn-outline-dark {
+    color: darkgray;
+    background-color: transparent;
+    background-image: none;
+    border-color: transparent;
+}
+
+.btn-outline-dark:hover {
+    color: black;
+    background-color: transparent;
+    border-color: darkgray;
+}
+
+.btn-outline-dark.focus, .btn-outline-dark:focus {
+    box-shadow: 0 0 0 0 transparent;
+    border-color: darkgray;
+}
+
 li.nav-item.tabs-link:hover {
     text-decoration: underline;
     text-underline-position: under;
@@ -83,6 +107,7 @@ body {
     padding: 0;
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
+    background-color: #f8f3ee;
 }
 
 a {
