@@ -4,7 +4,7 @@ a.nav {
     font-size: large;
     margin-bottom: 5%;
     text-transform: uppercase;
-    font-weight: 200;
+    font-weight: 400;
 
 }
 
@@ -62,14 +62,14 @@ a:hover {
 }
 
 .card {
-    border: 1px solid black;
+    border: 1px solid darkgray;
 }
 
 li.nav-item.tabs-link li.nav-item.tabs-link:active {
     text-decoration: none;
     margin-right: 1px;
     font-size: large;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 li.nav-item.tabs-link:hover {
@@ -82,12 +82,12 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Nunito', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 a {
     color: inherit;
-    font-weight: 400;
+    font-weight: 600;
     text-decoration: none;
 }
 
@@ -100,7 +100,7 @@ h2 {
     margin-block-start: 0;
     margin-block-end: 1rem;
     margin-bottom: 1rem;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 h3 {
@@ -109,7 +109,7 @@ h3 {
 }
 
 h4 {
-    font-weight: 200;
+    font-weight: 400;
     font-size: large;
     margin-block-start: 0;
     margin-block-end: 1rem;
@@ -123,13 +123,13 @@ h5 {
     padding: 0;
     margin-block-start: 0em;
     text-decoration: none;
-    font-weight: 200;
+    font-weight: 400;
     margin-block-end: 0;
 }
 
 h6 {
     margin-block-end: 0;
-    font-weight: 400;
+    font-weight: 600;
     font-size: large;
     display: block;
     margin-block-start: 0;
@@ -142,7 +142,7 @@ p {
     margin-block-end: 0;
     font-size:medium;
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 600;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     display: block;
