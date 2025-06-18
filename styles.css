@@ -112,10 +112,12 @@ li.nav-item.tabs-link:hover {
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
     background-color: whitesmoke;
 }
+
 
 a {
     color: inherit;
