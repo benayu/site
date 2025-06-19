@@ -35,11 +35,13 @@ a:hover {
     border: 1px solid darkgray;
     border-radius: 0.5rem;
     background: white;
+    max-height: 45rem;
+    overflow: auto;
 }
 
 .main-page {
     border-top: 0cm;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .profile {
@@ -76,8 +78,30 @@ a:hover {
     padding: 1rem;
 }
 
+.card-text-projects {
+    min-height: 10rem;
+    padding-top: 1rem;
+}
+
 .card {
     border: 1px solid darkgray;
+}
+
+.card-body {
+    min-height: 10rem;
+}
+
+.card-skills {
+    width: 18rem; margin: 1rem;
+}
+
+.project-card {
+    width: 22rem; 
+    margin: 1rem;
+}
+
+.project-img {
+    height: 12rem;
 }
 
 li.nav-item.tabs-link li.nav-item.tabs-link:active {
@@ -126,6 +150,7 @@ body {
     background-color: whitesmoke;
     
 }
+
 
 
 a {
@@ -190,6 +215,7 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     display: block;
+    font-weight:400;
 }
 
 
