@@ -1,3 +1,13 @@
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+
 
 a.nav {
     display: block;
@@ -14,15 +24,6 @@ a:hover {
     color: black;
 }
 
-.noselect {
-    -webkit-touch-callout: none; /* iOS Safari */
-      -webkit-user-select: none; /* Safari */
-       -khtml-user-select: none; /* Konqueror HTML */
-         -moz-user-select: none; /* Old versions of Firefox */
-          -ms-user-select: none; /* Internet Explorer/Edge */
-              user-select: none; /* Non-prefixed version, currently
-                                    supported by Chrome, Edge, Opera and Firefox */
-  }
 
 .tab-pane {
     border-width: 1px;
@@ -39,6 +40,13 @@ a:hover {
 .main-page {
     border-top: 0cm;
     margin-top: 10%;
+}
+
+.profile {
+    width: 15em;
+    border: 3px solid darkgray;
+    -moz-border-radius:50px;
+    -webkit-border-radius: 50px;
 }
 
 .tab-content {
@@ -116,6 +124,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     background-color: whitesmoke;
+    
 }
 
 
