@@ -45,10 +45,8 @@ a:hover {
 }
 
 .profile {
-    width: 15em;
+    max-width: 15em;
     border: 3px solid darkgray;
-    -moz-border-radius:50px;
-    -webkit-border-radius: 50px;
 }
 
 .tab-content {
@@ -85,6 +83,7 @@ a:hover {
 
 .card {
     border: 1px solid darkgray;
+    max-width: 19rem;
 }
 
 .card-body {
@@ -92,7 +91,9 @@ a:hover {
 }
 
 .card-skills {
-    width: 18rem; margin: 1rem;
+    margin: 1rem;
+    width: 18rem;
+    min-height: 10rem;
 }
 
 .project-card {
@@ -144,7 +145,7 @@ li.nav-item.tabs-link:hover {
 body {
     margin: 0;
     padding: 0;
-    font-family: "Inter", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     background-color: whitesmoke;
